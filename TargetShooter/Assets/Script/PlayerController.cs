@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,15 +13,16 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        _rigid = GetComponent<Rigidbody>();
-        _collider = GetComponent<SphereCollider>();
+        _rigid = GetComponentInChildren<Rigidbody>();
+        _collider = GetComponentInChildren<SphereCollider>();
         _camera = Camera.main;
     }
 
     void Update()
     {
         Move();
-        Rotate();
+        if(Input.anyKeyDown)
+            Rotate();
     }
 
     private void Move()
@@ -33,30 +35,12 @@ public class PlayerController : MonoBehaviour
         var rotation = transform.rotation;
         var xAngle = rotation.x;
         var yAngle = rotation.y;
-        var zAngle = rotation.z;
+        float vertical = Input.GetAxisRaw("Vertical");
+        float horizontal = Input.GetAxisRaw("Horizontal");
         
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            transform.Rotate(Mathf.Floor(xAngle - 90f), yAngle, zAngle);
-            return;
-        }
-
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            transform.Rotate(xAngle, Mathf.Floor(yAngle - 90f), zAngle);
-            return;
-        }
-
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            transform.Rotate(Mathf.Floor(xAngle + 90f), yAngle, zAngle);
-            return;
-        }
-
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            transform.Rotate(xAngle, Mathf.Floor(yAngle + 90f), zAngle);
-            return;
-        }
+        xAngle = Mathf.Floor(xAngle + (90f * vertical));
+        yAngle = Mathf.Floor(yAngle + (90f * horizontal));
+        
+        transform.Rotate(xAngle, yAngle, 0);
     }
 }
