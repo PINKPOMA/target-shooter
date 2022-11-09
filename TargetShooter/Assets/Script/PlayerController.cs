@@ -37,25 +37,25 @@ public class PlayerController : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.W))
         {
-            transform.Rotate(-90f, yAngle, zAngle);
+            transform.Rotate(Mathf.Floor(xAngle - 90f), yAngle, zAngle);
             return;
         }
 
         if (Input.GetKeyDown(KeyCode.A))
         {
-            transform.Rotate(xAngle, -90f, zAngle);
+            transform.Rotate(xAngle, Mathf.Floor(yAngle - 90f), zAngle);
             return;
         }
 
         if (Input.GetKeyDown(KeyCode.S))
         {
-            transform.Rotate(90f, yAngle, zAngle);
+            transform.Rotate(Mathf.Floor(xAngle + 90f), yAngle, zAngle);
             return;
         }
 
         if (Input.GetKeyDown(KeyCode.D))
         {
-            transform.Rotate(xAngle, 90f, zAngle);
+            transform.Rotate(xAngle, Mathf.Floor(yAngle + 90f), zAngle);
             return;
         }
     }
