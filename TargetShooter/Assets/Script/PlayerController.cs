@@ -13,8 +13,8 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        _rigid = GetComponentInChildren<Rigidbody>();
-        _collider = GetComponentInChildren<SphereCollider>();
+        _rigid = GetComponent<Rigidbody>();
+        _collider = GetComponent<SphereCollider>();
         _camera = Camera.main;
     }
 
