@@ -37,10 +37,7 @@ public class PlayerController : MonoBehaviour
         var yAngle = rotation.y;
         float vertical = Input.GetAxisRaw("Vertical");
         float horizontal = Input.GetAxisRaw("Horizontal");
-        
-        xAngle = Mathf.Floor(xAngle + (90f * vertical));
-        yAngle = Mathf.Floor(yAngle + (90f * horizontal));
-        
-        transform.Rotate(xAngle, yAngle, 0);
+
+        transform.Rotate(vertical * 90f, horizontal * 90f, 0);
     }
 }
