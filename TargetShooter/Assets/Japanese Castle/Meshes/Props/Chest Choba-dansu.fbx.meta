@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: 09125028e9bd72442bb8b364939637c1
+timeCreated: 1520133375
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Chest Choba-dansu
+    100004: drawer
+    100006: drawer 2
+    100008: drawer 3
+    100010: drawer 4
+    100012: drawer loop
+    100014: drawer loop 2
+    100016: drawer pull 1
+    100018: drawer pull 2
+    100020: drawer pull 3
+    100022: drawer pull4
+    100024: handle L
+    100026: handle R
+    100028: Sliding-door
+    100030: Sliding-door 2
+    100032: Sliding-door 3
+    100034: Sliding-door 4
+    400000: //RootNode
+    400002: Chest Choba-dansu
+    400004: drawer
+    400006: drawer 2
+    400008: drawer 3
+    400010: drawer 4
+    400012: drawer loop
+    400014: drawer loop 2
+    400016: drawer pull 1
+    400018: drawer pull 2
+    400020: drawer pull 3
+    400022: drawer pull4
+    400024: handle L
+    400026: handle R
+    400028: Sliding-door
+    400030: Sliding-door 2
+    400032: Sliding-door 3
+    400034: Sliding-door 4
+    2300000: Chest Choba-dansu
+    2300002: drawer
+    2300004: drawer 2
+    2300006: drawer 3
+    2300008: drawer 4
+    2300010: drawer loop
+    2300012: drawer loop 2
+    2300014: drawer pull 1
+    2300016: drawer pull 2
+    2300018: drawer pull 3
+    2300020: drawer pull4
+    2300022: handle L
+    2300024: handle R
+    2300026: Sliding-door
+    2300028: Sliding-door 2
+    2300030: Sliding-door 3
+    2300032: Sliding-door 4
+    3300000: Chest Choba-dansu
+    3300002: drawer
+    3300004: drawer 2
+    3300006: drawer 3
+    3300008: drawer 4
+    3300010: drawer loop
+    3300012: drawer loop 2
+    3300014: drawer pull 1
+    3300016: drawer pull 2
+    3300018: drawer pull 3
+    3300020: drawer pull4
+    3300022: handle L
+    3300024: handle R
+    3300026: Sliding-door
+    3300028: Sliding-door 2
+    3300030: Sliding-door 3
+    3300032: Sliding-door 4
+    4300000: handle R
+    4300002: handle L
+    4300004: drawer pull4
+    4300006: drawer pull 2
+    4300008: drawer pull 1
+    4300010: drawer pull 3
+    4300012: drawer 2
+    4300014: drawer loop
+    4300016: drawer 3
+    4300018: Sliding-door 2
+    4300020: Sliding-door 4
+    4300022: Chest Choba-dansu
+    4300024: drawer 4
+    4300026: Sliding-door 3
+    4300028: Sliding-door
+    4300030: drawer
+    4300032: drawer loop 2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

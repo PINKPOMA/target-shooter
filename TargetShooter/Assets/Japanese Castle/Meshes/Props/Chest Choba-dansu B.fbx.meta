@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 2c2ae7f4d6b59a24284fc36b61058c04
+timeCreated: 1520133375
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Chest Choba-dansu B
+    100004: drawer 2.001
+    100006: drawer 2.002
+    100008: drawer 2.003
+    100010: drawer pull 3.001
+    100012: drawer pull 3.002
+    100014: drawer pull 3.003
+    100016: drawer pull 3.004
+    100018: drawer pull 3.005
+    100020: drawer pull4.001
+    100022: drawer pull4.002
+    100024: drawer pull4.003
+    100026: drawer pull4.004
+    100028: drawer pull4.005
+    100030: drawer.001
+    100032: drawer.002
+    100034: handle L.001
+    100036: handle R.001
+    400000: Chest Choba-dansu B
+    400002: //RootNode
+    400004: drawer 2.001
+    400006: drawer 2.002
+    400008: drawer 2.003
+    400010: drawer pull 3.001
+    400012: drawer pull 3.002
+    400014: drawer pull 3.003
+    400016: drawer pull 3.004
+    400018: drawer pull 3.005
+    400020: drawer pull4.001
+    400022: drawer pull4.002
+    400024: drawer pull4.003
+    400026: drawer pull4.004
+    400028: drawer pull4.005
+    400030: drawer.001
+    400032: drawer.002
+    400034: handle L.001
+    400036: handle R.001
+    2300000: Chest Choba-dansu B
+    2300002: drawer 2.001
+    2300004: drawer 2.002
+    2300006: drawer 2.003
+    2300008: drawer pull 3.001
+    2300010: drawer pull 3.002
+    2300012: drawer pull 3.003
+    2300014: drawer pull 3.004
+    2300016: drawer pull 3.005
+    2300018: drawer pull4.001
+    2300020: drawer pull4.002
+    2300022: drawer pull4.003
+    2300024: drawer pull4.004
+    2300026: drawer pull4.005
+    2300028: drawer.001
+    2300030: drawer.002
+    2300032: handle L.001
+    2300034: handle R.001
+    3300000: Chest Choba-dansu B
+    3300002: drawer 2.001
+    3300004: drawer 2.002
+    3300006: drawer 2.003
+    3300008: drawer pull 3.001
+    3300010: drawer pull 3.002
+    3300012: drawer pull 3.003
+    3300014: drawer pull 3.004
+    3300016: drawer pull 3.005
+    3300018: drawer pull4.001
+    3300020: drawer pull4.002
+    3300022: drawer pull4.003
+    3300024: drawer pull4.004
+    3300026: drawer pull4.005
+    3300028: drawer.001
+    3300030: drawer.002
+    3300032: handle L.001
+    3300034: handle R.001
+    4300000: handle L.001
+    4300002: handle R.001
+    4300004: drawer pull 3.005
+    4300006: drawer pull4.005
+    4300008: drawer pull4.004
+    4300010: drawer pull 3.004
+    4300012: drawer pull 3.003
+    4300014: drawer pull4.003
+    4300016: drawer pull4.002
+    4300018: drawer pull 3.002
+    4300020: drawer pull 3.001
+    4300022: drawer pull4.001
+    4300024: drawer 2.003
+    4300026: drawer 2.002
+    4300028: drawer.002
+    4300030: drawer.001
+    4300032: drawer 2.001
+    4300034: Chest Choba-dansu B
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
