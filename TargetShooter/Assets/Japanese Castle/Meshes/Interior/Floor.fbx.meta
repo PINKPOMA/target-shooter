@@ -1,0 +1,840 @@
+fileFormatVersion: 2
+guid: 643b211e59c893f4cb7bbbbbd847330a
+timeCreated: 1488747531
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: 0.000
+    100004: Bean A
+    100006: Bean B
+    100008: Bean B End
+    100010: Bean C
+    100012: Bean C End
+    100014: Ceiling
+    100016: Ceiling.001
+    100018: Column A
+    100020: Column B
+    100022: Column C
+    100024: Floor
+    100026: Fusuma A Wood 2X2
+    100028: fusuma A Wood 2X2.001
+    100030: Fusuma B Painting 1X1
+    100032: Fusuma B Painting 1X1.001
+    100034: Fusuma B Painting 2X2
+    100036: Fusuma B Painting 2X2.001
+    100038: Fusuma B Painting 2X2.002
+    100040: fusuma.001
+    100042: fusuma.002
+    100044: fusuma.003
+    100046: fusuma.004
+    100048: fusuma.005
+    100050: fusuma.006
+    100052: Handrail
+    100054: Handrail Cornner
+    100056: Handrail Cornner.001
+    100058: Handrail End
+    100060: Handrail End.001
+    100062: Handrail.001
+    100064: Plane
+    100066: Plane.001
+    100068: Plane.002
+    100070: Plane.006
+    100072: Plane.008
+    100074: Plane.011
+    100076: Plane.012
+    100078: Plane.017
+    100080: Plane.020
+    100082: Plane.021
+    100084: Plane.022
+    100086: Plane.023
+    100088: Plane.024
+    100090: Plane.025
+    100092: Plane.026
+    100094: Plane.027
+    100096: Plane.028
+    100098: Plane.029
+    100100: Plane.031
+    100102: Plane.032
+    100104: Plane.034
+    100106: Plane.036
+    100108: Plane.037
+    100110: Plane.037_MeshPart0
+    100112: Plane.037_MeshPart1
+    100114: Plane.037_MeshPart2
+    100116: Plane.038
+    100118: Plane.039
+    100120: Plane.040
+    100122: Plane.041
+    100124: Plane.043
+    100126: Plane.043_MeshPart0
+    100128: Plane.043_MeshPart1
+    100130: Plane.044
+    100132: Plane.045
+    100134: Plane.046
+    100136: Plane.047
+    100138: Plane.048
+    100140: Plane.049
+    100142: Plane.050
+    100144: Plane.051
+    100146: Plane.052
+    100148: Plane.053
+    100150: Plane.056
+    100152: Plane.057
+    100154: Plane.059
+    100156: Plane.060
+    100158: Plane.061
+    100160: Plane.064
+    100162: Plane.065
+    100164: Plane.066
+    100166: Plane.070
+    100168: Plane.077
+    100170: Plane.079
+    100172: Plane.082
+    100174: Plane.083
+    100176: Plane.084
+    100178: Plane.085
+    100180: Plane.086
+    100182: Plane.087
+    100184: Plane.088
+    100186: Plane.089
+    100188: Plane.090
+    100190: Plane.091
+    100192: Plane.092
+    100194: Plane.093
+    100196: Plane.094
+    100198: Plane.095
+    100200: Plane.097
+    100202: Plane.098
+    100204: Plane.099
+    100206: Plane.100
+    100208: Plane.101
+    100210: Plane.104
+    100212: Plane.106
+    100214: Plane.107
+    100216: Plane.108
+    100218: Plane.109
+    100220: Plane.110
+    100222: Plane.111
+    100224: Plane.112
+    100226: Plane.113
+    100228: Plane.114
+    100230: Plane.115
+    100232: Plane.118
+    100234: Plane.121
+    100236: Plane.122
+    100238: Plane.124
+    100240: Plane.124_MeshPart0
+    100242: Plane.124_MeshPart1
+    100244: Plane.129
+    100246: Plane.130
+    100248: Plane.131
+    100250: Plane.143
+    100252: Plane.144
+    100254: Stair
+    100256: Stair End
+    100258: Stair End Column
+    100260: Stair End Column B
+    100262: Stair Start
+    100264: Stair Wall
+    100266: Stair Wall Bottom
+    100268: Wall Bean
+    100270: Wall Cage
+    100272: Wall Cage Corner
+    100274: Wall Cage Corner.001
+    100276: Wall Cage.001
+    100278: Wall Fusuma A
+    100280: Wall Interior Plaster
+    100282: Wall Interior Top 2x1 Bean
+    100284: Wall Interior Top 2x1 Plaster A
+    100286: Wall Interior Top 2x1 Plaster B
+    100288: Wall Interior Top 2x1 Window A
+    100290: Wall Interior Top 2x1 Window A.001
+    100292: Wall Interior Top 2x1 Window B
+    100294: Wall Interior Top 2x2 Plaster A
+    100296: Wall Interior Top 2x2 Plaster B
+    100298: Wall Interior Top 2x2 Wood A
+    100300: Wall Interior Top 2x2 Wood B
+    100302: Wall Interior Top 2x2 Wood.001
+    100304: Wall Interior Top Window 2x2
+    100306: Wall Interior Weapon Stand A
+    100308: Wall Interior Weapon Stand B
+    100310: Wall Interior Window
+    100312: Wall Interior Wood
+    400000: //RootNode
+    400002: 0.000
+    400004: Bean A
+    400006: Bean B
+    400008: Bean B End
+    400010: Bean C
+    400012: Bean C End
+    400014: Ceiling
+    400016: Ceiling.001
+    400018: Column A
+    400020: Column B
+    400022: Column C
+    400024: Floor
+    400026: Fusuma A Wood 2X2
+    400028: fusuma A Wood 2X2.001
+    400030: Fusuma B Painting 1X1
+    400032: Fusuma B Painting 1X1.001
+    400034: Fusuma B Painting 2X2
+    400036: Fusuma B Painting 2X2.001
+    400038: Fusuma B Painting 2X2.002
+    400040: fusuma.001
+    400042: fusuma.002
+    400044: fusuma.003
+    400046: fusuma.004
+    400048: fusuma.005
+    400050: fusuma.006
+    400052: Handrail
+    400054: Handrail Cornner
+    400056: Handrail Cornner.001
+    400058: Handrail End
+    400060: Handrail End.001
+    400062: Handrail.001
+    400064: Plane
+    400066: Plane.001
+    400068: Plane.002
+    400070: Plane.006
+    400072: Plane.008
+    400074: Plane.011
+    400076: Plane.012
+    400078: Plane.017
+    400080: Plane.020
+    400082: Plane.021
+    400084: Plane.022
+    400086: Plane.023
+    400088: Plane.024
+    400090: Plane.025
+    400092: Plane.026
+    400094: Plane.027
+    400096: Plane.028
+    400098: Plane.029
+    400100: Plane.031
+    400102: Plane.032
+    400104: Plane.034
+    400106: Plane.036
+    400108: Plane.037
+    400110: Plane.037_MeshPart0
+    400112: Plane.037_MeshPart1
+    400114: Plane.037_MeshPart2
+    400116: Plane.038
+    400118: Plane.039
+    400120: Plane.040
+    400122: Plane.041
+    400124: Plane.043
+    400126: Plane.043_MeshPart0
+    400128: Plane.043_MeshPart1
+    400130: Plane.044
+    400132: Plane.045
+    400134: Plane.046
+    400136: Plane.047
+    400138: Plane.048
+    400140: Plane.049
+    400142: Plane.050
+    400144: Plane.051
+    400146: Plane.052
+    400148: Plane.053
+    400150: Plane.056
+    400152: Plane.057
+    400154: Plane.059
+    400156: Plane.060
+    400158: Plane.061
+    400160: Plane.064
+    400162: Plane.065
+    400164: Plane.066
+    400166: Plane.070
+    400168: Plane.077
+    400170: Plane.079
+    400172: Plane.082
+    400174: Plane.083
+    400176: Plane.084
+    400178: Plane.085
+    400180: Plane.086
+    400182: Plane.087
+    400184: Plane.088
+    400186: Plane.089
+    400188: Plane.090
+    400190: Plane.091
+    400192: Plane.092
+    400194: Plane.093
+    400196: Plane.094
+    400198: Plane.095
+    400200: Plane.097
+    400202: Plane.098
+    400204: Plane.099
+    400206: Plane.100
+    400208: Plane.101
+    400210: Plane.104
+    400212: Plane.106
+    400214: Plane.107
+    400216: Plane.108
+    400218: Plane.109
+    400220: Plane.110
+    400222: Plane.111
+    400224: Plane.112
+    400226: Plane.113
+    400228: Plane.114
+    400230: Plane.115
+    400232: Plane.118
+    400234: Plane.121
+    400236: Plane.122
+    400238: Plane.124
+    400240: Plane.124_MeshPart0
+    400242: Plane.124_MeshPart1
+    400244: Plane.129
+    400246: Plane.130
+    400248: Plane.131
+    400250: Plane.143
+    400252: Plane.144
+    400254: Stair
+    400256: Stair End
+    400258: Stair End Column
+    400260: Stair End Column B
+    400262: Stair Start
+    400264: Stair Wall
+    400266: Stair Wall Bottom
+    400268: Wall Bean
+    400270: Wall Cage
+    400272: Wall Cage Corner
+    400274: Wall Cage Corner.001
+    400276: Wall Cage.001
+    400278: Wall Fusuma A
+    400280: Wall Interior Plaster
+    400282: Wall Interior Top 2x1 Bean
+    400284: Wall Interior Top 2x1 Plaster A
+    400286: Wall Interior Top 2x1 Plaster B
+    400288: Wall Interior Top 2x1 Window A
+    400290: Wall Interior Top 2x1 Window A.001
+    400292: Wall Interior Top 2x1 Window B
+    400294: Wall Interior Top 2x2 Plaster A
+    400296: Wall Interior Top 2x2 Plaster B
+    400298: Wall Interior Top 2x2 Wood A
+    400300: Wall Interior Top 2x2 Wood B
+    400302: Wall Interior Top 2x2 Wood.001
+    400304: Wall Interior Top Window 2x2
+    400306: Wall Interior Weapon Stand A
+    400308: Wall Interior Weapon Stand B
+    400310: Wall Interior Window
+    400312: Wall Interior Wood
+    2300000: //RootNode
+    2300002: 0.000
+    2300004: Bean A
+    2300006: Bean B
+    2300008: Bean B End
+    2300010: Bean C
+    2300012: Bean C End
+    2300014: Ceiling
+    2300016: Ceiling.001
+    2300018: Column A
+    2300020: Column B
+    2300022: Column C
+    2300024: Floor
+    2300026: Fusuma A Wood 2X2
+    2300028: fusuma A Wood 2X2.001
+    2300030: Fusuma B Painting 1X1
+    2300032: Fusuma B Painting 1X1.001
+    2300034: Fusuma B Painting 2X2
+    2300036: Fusuma B Painting 2X2.001
+    2300038: Fusuma B Painting 2X2.002
+    2300040: fusuma.001
+    2300042: fusuma.002
+    2300044: fusuma.003
+    2300046: fusuma.004
+    2300048: fusuma.005
+    2300050: fusuma.006
+    2300052: Handrail
+    2300054: Handrail Cornner
+    2300056: Handrail Cornner.001
+    2300058: Handrail End
+    2300060: Handrail End.001
+    2300062: Handrail.001
+    2300064: Plane
+    2300066: Plane.001
+    2300068: Plane.002
+    2300070: Plane.006
+    2300072: Plane.008
+    2300074: Plane.011
+    2300076: Plane.012
+    2300078: Plane.017
+    2300080: Plane.020
+    2300082: Plane.021
+    2300084: Plane.022
+    2300086: Plane.023
+    2300088: Plane.024
+    2300090: Plane.025
+    2300092: Plane.026
+    2300094: Plane.027
+    2300096: Plane.028
+    2300098: Plane.029
+    2300100: Plane.031
+    2300102: Plane.032
+    2300104: Plane.034
+    2300106: Plane.036
+    2300108: Plane.037_MeshPart0
+    2300110: Plane.037_MeshPart1
+    2300112: Plane.037_MeshPart2
+    2300114: Plane.038
+    2300116: Plane.039
+    2300118: Plane.040
+    2300120: Plane.041
+    2300122: Plane.043_MeshPart0
+    2300124: Plane.043_MeshPart1
+    2300126: Plane.044
+    2300128: Plane.045
+    2300130: Plane.046
+    2300132: Plane.047
+    2300134: Plane.048
+    2300136: Plane.049
+    2300138: Plane.050
+    2300140: Plane.051
+    2300142: Plane.052
+    2300144: Plane.053
+    2300146: Plane.056
+    2300148: Plane.057
+    2300150: Plane.059
+    2300152: Plane.060
+    2300154: Plane.061
+    2300156: Plane.064
+    2300158: Plane.065
+    2300160: Plane.066
+    2300162: Plane.070
+    2300164: Plane.077
+    2300166: Plane.079
+    2300168: Plane.082
+    2300170: Plane.083
+    2300172: Plane.084
+    2300174: Plane.085
+    2300176: Plane.086
+    2300178: Plane.087
+    2300180: Plane.088
+    2300182: Plane.089
+    2300184: Plane.090
+    2300186: Plane.091
+    2300188: Plane.092
+    2300190: Plane.093
+    2300192: Plane.094
+    2300194: Plane.095
+    2300196: Plane.097
+    2300198: Plane.098
+    2300200: Plane.099
+    2300202: Plane.100
+    2300204: Plane.101
+    2300206: Plane.104
+    2300208: Plane.106
+    2300210: Plane.107
+    2300212: Plane.108
+    2300214: Plane.109
+    2300216: Plane.110
+    2300218: Plane.111
+    2300220: Plane.112
+    2300222: Plane.113
+    2300224: Plane.114
+    2300226: Plane.115
+    2300228: Plane.118
+    2300230: Plane.121
+    2300232: Plane.122
+    2300234: Plane.124_MeshPart0
+    2300236: Plane.124_MeshPart1
+    2300238: Plane.129
+    2300240: Plane.130
+    2300242: Plane.131
+    2300244: Plane.143
+    2300246: Plane.144
+    2300248: Stair
+    2300250: Stair End
+    2300252: Stair End Column
+    2300254: Stair End Column B
+    2300256: Stair Start
+    2300258: Stair Wall
+    2300260: Stair Wall Bottom
+    2300262: Wall Bean
+    2300264: Wall Cage
+    2300266: Wall Cage Corner
+    2300268: Wall Cage Corner.001
+    2300270: Wall Cage.001
+    2300272: Wall Fusuma A
+    2300274: Wall Interior Plaster
+    2300276: Wall Interior Top 2x1 Bean
+    2300278: Wall Interior Top 2x1 Plaster A
+    2300280: Wall Interior Top 2x1 Plaster B
+    2300282: Wall Interior Top 2x1 Window A
+    2300284: Wall Interior Top 2x1 Window A.001
+    2300286: Wall Interior Top 2x1 Window B
+    2300288: Wall Interior Top 2x2 Plaster A
+    2300290: Wall Interior Top 2x2 Plaster B
+    2300292: Wall Interior Top 2x2 Wood A
+    2300294: Wall Interior Top 2x2 Wood B
+    2300296: Wall Interior Top 2x2 Wood.001
+    2300298: Wall Interior Top Window 2x2
+    2300300: Wall Interior Weapon Stand A
+    2300302: Wall Interior Weapon Stand B
+    2300304: Wall Interior Window
+    2300306: Wall Interior Wood
+    3300000: //RootNode
+    3300002: 0.000
+    3300004: Bean A
+    3300006: Bean B
+    3300008: Bean B End
+    3300010: Bean C
+    3300012: Bean C End
+    3300014: Ceiling
+    3300016: Ceiling.001
+    3300018: Column A
+    3300020: Column B
+    3300022: Column C
+    3300024: Floor
+    3300026: Fusuma A Wood 2X2
+    3300028: fusuma A Wood 2X2.001
+    3300030: Fusuma B Painting 1X1
+    3300032: Fusuma B Painting 1X1.001
+    3300034: Fusuma B Painting 2X2
+    3300036: Fusuma B Painting 2X2.001
+    3300038: Fusuma B Painting 2X2.002
+    3300040: fusuma.001
+    3300042: fusuma.002
+    3300044: fusuma.003
+    3300046: fusuma.004
+    3300048: fusuma.005
+    3300050: fusuma.006
+    3300052: Handrail
+    3300054: Handrail Cornner
+    3300056: Handrail Cornner.001
+    3300058: Handrail End
+    3300060: Handrail End.001
+    3300062: Handrail.001
+    3300064: Plane
+    3300066: Plane.001
+    3300068: Plane.002
+    3300070: Plane.006
+    3300072: Plane.008
+    3300074: Plane.011
+    3300076: Plane.012
+    3300078: Plane.017
+    3300080: Plane.020
+    3300082: Plane.021
+    3300084: Plane.022
+    3300086: Plane.023
+    3300088: Plane.024
+    3300090: Plane.025
+    3300092: Plane.026
+    3300094: Plane.027
+    3300096: Plane.028
+    3300098: Plane.029
+    3300100: Plane.031
+    3300102: Plane.032
+    3300104: Plane.034
+    3300106: Plane.036
+    3300108: Plane.037_MeshPart0
+    3300110: Plane.037_MeshPart1
+    3300112: Plane.037_MeshPart2
+    3300114: Plane.038
+    3300116: Plane.039
+    3300118: Plane.040
+    3300120: Plane.041
+    3300122: Plane.043_MeshPart0
+    3300124: Plane.043_MeshPart1
+    3300126: Plane.044
+    3300128: Plane.045
+    3300130: Plane.046
+    3300132: Plane.047
+    3300134: Plane.048
+    3300136: Plane.049
+    3300138: Plane.050
+    3300140: Plane.051
+    3300142: Plane.052
+    3300144: Plane.053
+    3300146: Plane.056
+    3300148: Plane.057
+    3300150: Plane.059
+    3300152: Plane.060
+    3300154: Plane.061
+    3300156: Plane.064
+    3300158: Plane.065
+    3300160: Plane.066
+    3300162: Plane.070
+    3300164: Plane.077
+    3300166: Plane.079
+    3300168: Plane.082
+    3300170: Plane.083
+    3300172: Plane.084
+    3300174: Plane.085
+    3300176: Plane.086
+    3300178: Plane.087
+    3300180: Plane.088
+    3300182: Plane.089
+    3300184: Plane.090
+    3300186: Plane.091
+    3300188: Plane.092
+    3300190: Plane.093
+    3300192: Plane.094
+    3300194: Plane.095
+    3300196: Plane.097
+    3300198: Plane.098
+    3300200: Plane.099
+    3300202: Plane.100
+    3300204: Plane.101
+    3300206: Plane.104
+    3300208: Plane.106
+    3300210: Plane.107
+    3300212: Plane.108
+    3300214: Plane.109
+    3300216: Plane.110
+    3300218: Plane.111
+    3300220: Plane.112
+    3300222: Plane.113
+    3300224: Plane.114
+    3300226: Plane.115
+    3300228: Plane.118
+    3300230: Plane.121
+    3300232: Plane.122
+    3300234: Plane.124_MeshPart0
+    3300236: Plane.124_MeshPart1
+    3300238: Plane.129
+    3300240: Plane.130
+    3300242: Plane.131
+    3300244: Plane.143
+    3300246: Plane.144
+    3300248: Stair
+    3300250: Stair End
+    3300252: Stair End Column
+    3300254: Stair End Column B
+    3300256: Stair Start
+    3300258: Stair Wall
+    3300260: Stair Wall Bottom
+    3300262: Wall Bean
+    3300264: Wall Cage
+    3300266: Wall Cage Corner
+    3300268: Wall Cage Corner.001
+    3300270: Wall Cage.001
+    3300272: Wall Fusuma A
+    3300274: Wall Interior Plaster
+    3300276: Wall Interior Top 2x1 Bean
+    3300278: Wall Interior Top 2x1 Plaster A
+    3300280: Wall Interior Top 2x1 Plaster B
+    3300282: Wall Interior Top 2x1 Window A
+    3300284: Wall Interior Top 2x1 Window A.001
+    3300286: Wall Interior Top 2x1 Window B
+    3300288: Wall Interior Top 2x2 Plaster A
+    3300290: Wall Interior Top 2x2 Plaster B
+    3300292: Wall Interior Top 2x2 Wood A
+    3300294: Wall Interior Top 2x2 Wood B
+    3300296: Wall Interior Top 2x2 Wood.001
+    3300298: Wall Interior Top Window 2x2
+    3300300: Wall Interior Weapon Stand A
+    3300302: Wall Interior Weapon Stand B
+    3300304: Wall Interior Window
+    3300306: Wall Interior Wood
+    4300000: Floor
+    4300002: Handrail
+    4300004: Handrail Cornner
+    4300006: Handrail End
+    4300008: Fusuma B Painting 2X2.002
+    4300010: Fusuma A Wood 2X2
+    4300012: Fusuma B Painting 1X1
+    4300014: Fusuma B Painting 2X2
+    4300016: Wall Cage
+    4300018: Wall Interior Top 2x1 Window A
+    4300020: Wall Cage Corner
+    4300022: Wall Interior Top 2x2 Wood B
+    4300024: Wall Interior Top Window 2x2
+    4300026: Wall Interior Top 2x2 Plaster A
+    4300028: Wall Interior Top 2x2 Plaster B
+    4300030: Wall Interior Top 2x2 Wood A
+    4300032: Ceiling
+    4300034: Stair End Column B
+    4300036: Stair End Column
+    4300038: Stair Wall Bottom
+    4300040: Plane.144
+    4300042: Plane.143
+    4300044: Stair End
+    4300046: Stair
+    4300048: Stair Wall
+    4300050: Stair Start
+    4300052: Plane.131
+    4300054: Plane
+    4300056: Plane.130
+    4300058: Plane.129
+    4300060: Plane.124_MeshPart0
+    4300062: Plane.124_MeshPart1
+    4300064: Plane.122
+    4300066: Plane.121
+    4300068: Plane.118
+    4300070: Plane.115
+    4300072: Plane.114
+    4300074: Plane.113
+    4300076: Plane.112
+    4300078: Plane.111
+    4300080: Fusuma B Painting 1X1.001
+    4300082: fusuma.006
+    4300084: fusuma.005
+    4300086: Plane.110
+    4300088: Plane.109
+    4300090: Plane.108
+    4300092: Plane.107
+    4300094: Plane.106
+    4300096: Wall Cage.001
+    4300098: Plane.104
+    4300100: Wall Cage Corner.001
+    4300102: Wall Interior Window
+    4300104: Wall Interior Weapon Stand A
+    4300106: Wall Bean
+    4300108: Wall Interior Top 2x2 Wood.001
+    4300110: Plane.101
+    4300112: Plane.100
+    4300114: Plane.099
+    4300116: Plane.098
+    4300118: Plane.008
+    4300120: Plane.097
+    4300122: Plane.095
+    4300124: Plane.094
+    4300126: Plane.093
+    4300128: Plane.092
+    4300130: Plane.091
+    4300132: Plane.090
+    4300134: Plane.048
+    4300136: Plane.089
+    4300138: Plane.088
+    4300140: Plane.087
+    4300142: Plane.086
+    4300144: Plane.085
+    4300146: Plane.084
+    4300148: Plane.083
+    4300150: Plane.056
+    4300152: Plane.049
+    4300154: Plane.017
+    4300156: Plane.047
+    4300158: fusuma.003
+    4300160: fusuma.004
+    4300162: fusuma.002
+    4300164: fusuma.001
+    4300166: Plane.046
+    4300168: Plane.045
+    4300170: Plane.044
+    4300172: Fusuma B Painting 2X2.001
+    4300174: Handrail End.001
+    4300176: Handrail Cornner.001
+    4300178: Plane.043_MeshPart0
+    4300180: Plane.043_MeshPart1
+    4300182: Plane.012
+    4300184: Plane.006
+    4300186: Plane.082
+    4300188: Plane.061
+    4300190: Plane.079
+    4300192: Plane.077
+    4300194: Plane.070
+    4300196: Wall Interior Plaster
+    4300198: Plane.066
+    4300200: Plane.065
+    4300202: Plane.064
+    4300204: Wall Interior Top 2x1 Plaster B
+    4300206: fusuma A Wood 2X2.001
+    4300208: Wall Interior Top 2x1 Window B
+    4300210: Plane.060
+    4300212: Plane.059
+    4300214: Plane.057
+    4300216: Wall Interior Wood
+    4300218: Plane.053
+    4300220: Column B
+    4300222: Wall Fusuma A
+    4300224: Plane.052
+    4300226: Plane.051
+    4300228: Plane.050
+    4300230: Bean A
+    4300232: Plane.041
+    4300234: Plane.040
+    4300236: Plane.037_MeshPart0
+    4300238: Plane.037_MeshPart1
+    4300240: Plane.037_MeshPart2
+    4300242: Plane.039
+    4300244: Plane.036
+    4300246: Plane.038
+    4300248: 0.000
+    4300250: Plane.034
+    4300252: Plane.032
+    4300254: Plane.031
+    4300256: Plane.028
+    4300258: Plane.026
+    4300260: Plane.025
+    4300262: Plane.024
+    4300264: Plane.023
+    4300266: Plane.022
+    4300268: Plane.021
+    4300270: Plane.020
+    4300272: Plane.011
+    4300274: Plane.002
+    4300276: Plane.001
+    4300278: Handrail.001
+    4300280: Column C
+    4300282: Wall Interior Top 2x1 Window A.001
+    4300284: Column A
+    4300286: Wall Interior Weapon Stand B
+    4300288: Plane.029
+    4300290: Plane.027
+    4300292: Ceiling.001
+    4300294: Bean B End
+    4300296: Bean B
+    4300298: Bean C
+    4300300: Bean C End
+    4300302: Wall Interior Top 2x1 Bean
+    4300304: Wall Interior Top 2x1 Plaster A
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
