@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -22,7 +23,9 @@ public class PlayerController : MonoBehaviour
     {
         Move();
         if(Input.anyKeyDown)
+        {
             Rotate();
+        }
     }
 
     private void Move()
@@ -37,7 +40,7 @@ public class PlayerController : MonoBehaviour
         var yAngle = rotation.y;
         float vertical = Input.GetAxisRaw("Vertical");
         float horizontal = Input.GetAxisRaw("Horizontal");
-
-        transform.Rotate(vertical * 90f, horizontal * 90f, 0);
+        
+        transform.DOLocalRotate(new Vector3(vertical * 90f * -1f, horizontal * 90f, 0f), 0.1f, RotateMode.LocalAxisAdd);
     }
 }
