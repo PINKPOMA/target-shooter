@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
 
     private void Move()
     {
-        _rigid.velocity = transform.forward * speed;
+        _rigid.velocity = transform.forward * moveSpeed;
     }
 
     private void Rotate()
@@ -61,8 +61,8 @@ public class PlayerController : MonoBehaviour
     IEnumerator DoRotate(float vertical, float horizontal)
     {
         _isRotate = true;
-        transform.DOLocalRotate(new Vector3(vertical * 90f * -1f, horizontal * 90f, 0f), 0.1f, RotateMode.LocalAxisAdd);
-        yield return new WaitForSeconds(0.1f);
+        transform.DOLocalRotate(new Vector3(vertical * 90f * -1f, horizontal * 90f, 0f), rotationSpeed, RotateMode.LocalAxisAdd);
+        yield return new WaitForSeconds(rotationDelay);
         _isRotate = false;
     }
 }
