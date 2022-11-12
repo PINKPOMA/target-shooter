@@ -36,13 +36,21 @@ public class PlayerController : MonoBehaviour
 
     private void Rotate()
     {
+        #region Rotation Variables
+        
         var rotation = transform.rotation;
-        var xAngle = rotation.x;
-        var yAngle = rotation.y;
+        float xAngle = rotation.x;
+        float yAngle = rotation.y;
+        
+        #endregion
+        
         float vertical = Input.GetAxisRaw("Vertical");
         float horizontal = Input.GetAxisRaw("Horizontal");
+        
         if (!_isRotate)
+        {
             StartCoroutine(DoRotate(vertical, horizontal));
+        }
     }
 
     IEnumerator DoRotate(float vertical, float horizontal)
