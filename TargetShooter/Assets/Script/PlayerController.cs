@@ -9,9 +9,14 @@ public class PlayerController : MonoBehaviour
     private Rigidbody _rigid;
     private SphereCollider _collider;
     private Camera _camera;
+    
     private bool _isRotate;
 
-    [SerializeField] private float speed;
+    [Header("rotation")]
+    [SerializeField] private float rotationSpeed = 0.1f;
+    [SerializeField] private float rotationDelay = 0.15f;
+    [Space]
+    [SerializeField] private float moveSpeed;
 
     void Start()
     {
