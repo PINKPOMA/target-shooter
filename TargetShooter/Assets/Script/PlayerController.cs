@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using TMPro;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -18,12 +19,14 @@ public class PlayerController : MonoBehaviour
     [Space]
     [SerializeField] private float moveSpeed;
     [SerializeField] private float speedUpValue;
+    [SerializeField] TextMeshProUGUI speedText;
 
     void Start()
     {
         _rigid = GetComponent<Rigidbody>();
         _collider = GetComponent<SphereCollider>();
         _camera = Camera.main;
+        speedText.text = moveSpeed.ToString();
     }
 
     void Update()
@@ -84,6 +87,7 @@ public class PlayerController : MonoBehaviour
                 Destroy(other.gameObject);
                 moveSpeed += speedUpValue;
                 GameObject.FindWithTag("Generater").GetComponent<TargetGenerator>().Generate();
+                speedText.text = moveSpeed.ToString();
                 return;
         }
     }
