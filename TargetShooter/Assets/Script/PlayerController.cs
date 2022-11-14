@@ -65,4 +65,24 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(rotationDelay);
         _isRotate = false;
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log(collision.gameObject.tag);
+       
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        switch (other.tag)
+        {
+            case "Wall":
+                Destroy(gameObject);
+                return;
+            case "Target":
+                Destroy(other.gameObject);
+                moveSpeed += 100;
+                return;
+        }
+    }
 }
