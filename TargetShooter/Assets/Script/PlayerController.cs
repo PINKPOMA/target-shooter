@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float rotationDelay = 0.15f;
     [Space]
     [SerializeField] private float moveSpeed;
+    [SerializeField] private float speedUpValue;
 
     void Start()
     {
@@ -81,7 +82,8 @@ public class PlayerController : MonoBehaviour
                 return;
             case "Target":
                 Destroy(other.gameObject);
-                moveSpeed += 100;
+                moveSpeed += speedUpValue;
+                GameObject.FindWithTag("Generater").GetComponent<TargetGenerator>().Generate();
                 return;
         }
     }
