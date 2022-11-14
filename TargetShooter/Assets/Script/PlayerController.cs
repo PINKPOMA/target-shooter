@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
         Move();
         if(Input.anyKeyDown)
         {
-            Rotate();
+            TryRotate();
         }
     }
 
@@ -43,8 +43,9 @@ public class PlayerController : MonoBehaviour
         _rigid.velocity = transform.forward * moveSpeed;
     }
 
-    private void Rotate()
+    private void TryRotate()
     {
+        
         #region Rotation Variables
         
         var rotation = transform.rotation;
@@ -55,17 +56,18 @@ public class PlayerController : MonoBehaviour
         
         float vertical = Input.GetAxisRaw("Vertical");
         float horizontal = Input.GetAxisRaw("Horizontal");
-        
+
         if (!_isRotate)
         {
-            StartCoroutine(DoRotate(vertical, horizontal));
+            StartCoroutine(Rotate(vertical, horizontal));
         }
     }
 
-    IEnumerator DoRotate(float vertical, float horizontal)
+    IEnumerator Rotate(float vertical, float horizontal)
     {
         _isRotate = true;
-        transform.DOLocalRotate(new Vector3(vertical * 90f * -1f, horizontal * 90f, 0f), rotationSpeed, RotateMode.LocalAxisAdd);
+        Vector3 rotateValue = new Vector3(vertical * 90f * -1f, horizontal * 90f, 0f);
+        transform.DOLocalRotate(rotateValue, rotationSpeed, RotateMode.LocalAxisAdd);
         yield return new WaitForSeconds(rotationDelay);
         _isRotate = false;
     }
