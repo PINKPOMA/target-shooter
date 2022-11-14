@@ -63,7 +63,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    IEnumerator Rotate(float vertical, float horizontal)
+    private IEnumerator Rotate(float vertical, float horizontal)
     {
         _isRotate = true;
         Vector3 rotateValue = new Vector3(vertical * 90f * -1f, horizontal * 90f, 0f);
