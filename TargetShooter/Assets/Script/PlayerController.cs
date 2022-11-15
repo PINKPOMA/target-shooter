@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody _rigid;
     private SphereCollider _collider;
     private Camera _camera;
+    private float _maxPos = 250;
     
     private bool _isRotate;
 
@@ -45,6 +46,12 @@ public class PlayerController : MonoBehaviour
     private void Move()
     {
         _rigid.velocity = transform.forward * moveSpeed;
+
+        /*if (transform.position.x >= _maxPos || transform.position.x <= _maxPos * 1 || 
+            transform.position.y >= _maxPos || transform.position.y <= _maxPos * 1 || 
+            transform.position.z >= _maxPos || transform.position.z <= _maxPos * 1)
+            SceneManager.LoadScene("GameOver");*/
+
     }
 
     private void TryRotate()
