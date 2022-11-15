@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -17,8 +18,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float rotationSpeed = 0.1f;
     [SerializeField] private float rotationDelay = 0.15f;
     [Space]
+    [Header("Speed")]
     [SerializeField] private float moveSpeed;
     [SerializeField] private float speedUpValue;
+    [Space]
+    [Header("Text")]
     [SerializeField] TextMeshProUGUI speedText;
 
     void Start()
@@ -83,7 +87,7 @@ public class PlayerController : MonoBehaviour
         switch (other.tag)
         {
             case "Wall":
-                Destroy(gameObject);
+                SceneManager.LoadScene("GameOver");
                 return;
             case "Target":
                 Destroy(other.gameObject);
