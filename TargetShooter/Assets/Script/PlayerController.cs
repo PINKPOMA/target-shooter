@@ -47,11 +47,25 @@ public class PlayerController : MonoBehaviour
     {
         _rigid.velocity = transform.forward * moveSpeed;
 
+        if (OverMaxPos())
+        {
+            // TODO 죽음 처리하기
+        }
+        
         /*if (transform.position.x >= _maxPos || transform.position.x <= _maxPos * 1 || 
             transform.position.y >= _maxPos || transform.position.y <= _maxPos * 1 || 
             transform.position.z >= _maxPos || transform.position.z <= _maxPos * 1)
             SceneManager.LoadScene("GameOver");*/
 
+    }
+    
+    private bool OverMaxPos()
+    {
+        var pos = transform.position;
+        if(Mathf.Abs(pos.x) >= _maxPos) return true;
+        if(Mathf.Abs(pos.y) >= _maxPos) return true;
+        if(Mathf.Abs(pos.z) >= _maxPos) return true;
+        return false;
     }
 
     private void TryRotate()
