@@ -30,25 +30,26 @@ public class Ranking : Singleton<Ranking>
     public void SetRank(int num)
     {
         playerScore = num;
-        if (playerScore < ranking[4].score) return;
         RankData temp;
-        
-        for (int i = 4; i > 0; i--)
+        if (playerScore > ranking[4].score)
         {
-            ranking[i].score = playerScore;
-            ranking[i].name = playerName;
-            while (ranking[i].score > ranking[i-1].score)
+            ranking[4].score = playerScore;
+            ranking[4].name = playerName;
+            for (int i = 4; i > 0; i--)
             {
-                temp = ranking[i];
-                ranking[i] = ranking[i -1];
-                ranking[i -1] = temp;
+                while (ranking[i].score > ranking[i-1].score)
+                {
+                    temp = ranking[i];
+                    ranking[i] = ranking[i -1];
+                    ranking[i -1] = temp;
+                }
             }
-        }
 
-        for (int i = 0; i < 5; i++)
-        {
-            PlayerPrefs.SetInt(i + "RankScore", ranking[i].score);
-            PlayerPrefs.SetString(i + "RankName", ranking[i].name);
+            for (int i = 0; i < 5; i++)
+            {
+                PlayerPrefs.SetInt(i + "RankScore", ranking[i].score);
+                PlayerPrefs.SetString(i + "RankName", ranking[i].name);
+            }
         }
     }
 }
