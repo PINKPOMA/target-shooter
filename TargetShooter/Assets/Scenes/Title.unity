@@ -3854,7 +3854,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerNameText: {fileID: 351841437}
   inputField_Name: {fileID: 814947894}
-  rankObject: {fileID: 0}
+  rankObject: {fileID: 2012520304}
 --- !u!1 &1951645040
 GameObject:
   m_ObjectHideFlags: 0
@@ -4041,7 +4041,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2012520305
 RectTransform:
   m_ObjectHideFlags: 0
