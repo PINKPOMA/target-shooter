@@ -20,8 +20,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float rotationDelay = 0.15f;
     [Space]
     [Header("Speed")]
-    [SerializeField] private float moveSpeed;
-    [SerializeField] private float speedUpValue;
+    [SerializeField] private int moveSpeed;
+    [SerializeField] private int speedUpValue;
     [Space]
     [Header("Text")]
     [SerializeField] TextMeshProUGUI speedText;
@@ -108,7 +108,7 @@ public class PlayerController : MonoBehaviour
         switch (other.tag)
         {
             case "Wall":
-                SceneManager.LoadScene("GameOver");
+                GameOver();
                 return;
             case "Target":
                 Destroy(other.gameObject);
@@ -117,5 +117,11 @@ public class PlayerController : MonoBehaviour
                 speedText.text = moveSpeed.ToString();
                 return;
         }
+    }
+
+    void GameOver()
+    {
+        Ranking.Instance.SetRank(moveSpeed);
+        SceneManager.LoadScene("GameOver");
     }
 }
