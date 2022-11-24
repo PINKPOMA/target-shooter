@@ -11,7 +11,7 @@ public class ButtonManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI playerNameText;
     public GameObject inputField_Name;
     public GameObject rankObject;
-
+    private bool isPushRank = false;
     private void Start()
     {
         Debug.Log($"{Application.dataPath}/data.json");
@@ -39,6 +39,15 @@ public class ButtonManager : MonoBehaviour
 
     public void RankButton()
     {
-        rankObject.SetActive(true);
+        if(!isPushRank)
+        {
+            rankObject.SetActive(true);
+            isPushRank = true;
+        }
+        else
+        {
+            rankObject.SetActive(false);
+            isPushRank = false;
+        } 
     }
 }
