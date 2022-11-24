@@ -17,13 +17,20 @@ public class Ranking : Singleton<Ranking>
     public string playerName;
     public int playerScore;
     public RankData[] ranking = new RankData[5];
+
+    public void Start()
+    {
+        for (int i = 0; i < 5; i++)
+        {
+            ranking[i].score = PlayerPrefs.GetInt(i + "RankScore", ranking[i].score);
+            ranking[i].name = PlayerPrefs.GetString(i + "RankName", ranking[i].name);
+        }
+    }
+
     public void SetRank(int num)
     {
         playerScore = num;
         if (playerScore < ranking[4].score) return;
-        PlayerPrefs.SetString("PlayerName", playerName);
-        PlayerPrefs.SetInt("PlayerScore", playerScore);
-
         RankData temp;
         
         for (int i = 4; i > 0; i--)
@@ -35,10 +42,6 @@ public class Ranking : Singleton<Ranking>
                 temp = ranking[i];
                 ranking[i] = ranking[i -1];
                 ranking[i -1] = temp;
-
-
-                PlayerPrefs.SetString(i +"PlayerName", playerName);
-                PlayerPrefs.SetInt(i + "PlayerScore", playerScore);
             }
         }
 
