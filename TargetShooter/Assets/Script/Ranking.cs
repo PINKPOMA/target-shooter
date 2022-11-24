@@ -5,52 +5,47 @@ using System.IO;
 using System.Linq;
 using UnityEngine;
 
-
+[System.Serializable] 
+public class RankData 
+{ 
+    public int score; 
+    public string name;
+} 
 
 public class Ranking : Singleton<Ranking>
 {
-    class JsonUtilityEx
-    {
-        public static T ReadData<T>(string path)
-        {
-            return JsonUtility.FromJson<T>(File.ReadAllText(path));
-        }
-    
-        public static void WriteData<T>(string path, T data)
-        {
-            File.WriteAllText(path, JsonUtility.ToJson(data));
-        }
-
-        public static bool IsExists(string path)
-        {
-            return File.Exists(path);
-        }
-
-        public static T LoadData<T>(string path)
-        {
-            return IsExists(path) ? ReadData<T>(path) : default; 
-        }
-    }
-
-    public User user;
     public string playerName;
-    public int nowScore;
-    public List<User> ranking = new List<User>();
+    public int playerScore;
+    public RankData[] ranking = new RankData[5];
     public void SetRank(int num)
     {
-        Debug.Log(ranking.Count);
-        nowScore = num;
-        ranking = JsonUtilityEx.LoadData<List<User>>($"{Application.dataPath}/data.json");
+        playerScore = num;
+        if (playerScore < ranking[4].score) return;
+        PlayerPrefs.SetString("PlayerName", playerName);
+        PlayerPrefs.SetInt("PlayerScore", playerScore);
 
-        user.name = playerName;
-        user.score = nowScore;
-        Debug.Log(nowScore + " : " + playerName + " : " + user);
-        ranking.Add(user);
+        RankData temp;
+        
+        for (int i = 4; i > 0; i--)
+        {
+            ranking[i].score = playerScore;
+            ranking[i].name = playerName;
+            while (ranking[i].score > ranking[i-1].score)
+            {
+                temp = ranking[i];
+                ranking[i] = ranking[i -1];
+                ranking[i -1] = temp;
 
-        ranking.Sort((a, b) => a.score.CompareTo(b.score));
 
-        var showCell = ranking.Take(5).ToList();
+                PlayerPrefs.SetString(i +"PlayerName", playerName);
+                PlayerPrefs.SetInt(i + "PlayerScore", playerScore);
+            }
+        }
 
-        JsonUtilityEx.WriteData("path/data.json", showCell);
+        for (int i = 0; i < 5; i++)
+        {
+            PlayerPrefs.SetInt(i + "RankScore", ranking[i].score);
+            PlayerPrefs.SetString(i + "RankName", ranking[i].name);
+        }
     }
 }

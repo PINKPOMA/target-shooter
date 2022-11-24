@@ -44,7 +44,7 @@ public class GameOver : MonoBehaviour
 
     public void ReStart()
     {
-        SceneManager.LoadScene("InGame");
+        SceneManager.LoadScene("Title");
     }
     public void Exit()
     {

@@ -10,10 +10,4 @@ public class NextScene : MonoBehaviour
     {
         SceneManager.LoadScene("Title");
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

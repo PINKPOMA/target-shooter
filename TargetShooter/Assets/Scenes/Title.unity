@@ -3854,6 +3854,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerNameText: {fileID: 351841437}
   inputField_Name: {fileID: 814947894}
+  rankObject: {fileID: 0}
 --- !u!1 &1951645040
 GameObject:
   m_ObjectHideFlags: 0
@@ -4116,4 +4117,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57e08caab454ed442b38cb5a779649b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rankText: []
+  rankText:
+  - {fileID: 1429070840}
+  - {fileID: 1784254406}
+  - {fileID: 352358435}
+  - {fileID: 1519144705}
+  - {fileID: 1064917687}

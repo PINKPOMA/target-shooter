@@ -34,7 +34,7 @@ public class ButtonManager : MonoBehaviour
     public void EnterName()
     {
         playerNameText.text = $"player: {inputField_Name.GetComponent<TMP_InputField>().text}";
-        Ranking.Instance.user.name = inputField_Name.GetComponent<TMP_InputField>().text;
+        Ranking.Instance.playerName = inputField_Name.GetComponent<TMP_InputField>().text;
     }
 
     public void RankButton()
