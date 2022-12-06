@@ -14,7 +14,8 @@ public class ButtonManager : MonoBehaviour
     private bool isPushRank = false;
     private void Start()
     {
-        Debug.Log($"{Application.dataPath}/data.json");
+        playerNameText.text = $"player: player";
+        Ranking.Instance.playerName = "player";
     }
 
     public void StartButton()

@@ -49,7 +49,7 @@ public class PlayerController : MonoBehaviour
 
         if (OverMaxPos())
         {
-            // TODO 죽음 처리하기
+            GameOver();
         }
         
         /*if (transform.position.x >= _maxPos || transform.position.x <= _maxPos * 1 || 
